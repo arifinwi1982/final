@@ -57,6 +57,8 @@ div.profile{
     img.prof{
         height: 100%;
         width: 100%;
+        border-top-left-radius: 2rem;
+        border-bottom-right-radius: 2rem;
     }
 div.content{
 
@@ -121,7 +123,10 @@ div.contact{
     margin-bottom: 70px;
     color: beige;
 }
+div.contact a{
+    color: beige;
 
+}
 div.contact p{
     margin-inline: 180px;
 }
@@ -179,6 +184,12 @@ display: none;
         margin-left: 20px;
         margin-right: 20px;
         }
+        
+        div.title{
+            float:left;
+            color: beige;
+    
+        }
     h3{
         text-align: center;
         font-family :Verdana, Geneva, Tahoma, sans-serif;
@@ -217,6 +228,7 @@ display: none;
 
     float:left;
     width: 50%;
+    color: beige;
 
     }
     div.content p{
@@ -255,17 +267,24 @@ div.contact{
 
     text-align: center;
     margin-bottom: 30px;
+    color: beige;
+    
 }
 
 div.contact p{
     margin-inline: 180px;
 }
 
+div.contact a{
+    color: beige;
+
+}
+
 a.footer1{
     float: left;
     text-decoration: none;
     margin-inline-start: 1em;
-    color: black;
+    color: beige;
     margin-top: 20px;
     margin-bottom: 20px;
   }
@@ -278,7 +297,7 @@ display: none;
     float: right;
     text-decoration: none;
     margin-inline-end: 1em;
-    color: black;
+    color: beige;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -286,7 +305,7 @@ display: none;
     float: right;
     text-decoration: none;
     margin-inline-end: 1em;
-    color: black;
+    color: beige;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -295,7 +314,7 @@ display: none;
     float: right;
     text-decoration: none;
     margin-inline-end: 1em;
-    color: black;
+    color: beige;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -326,6 +345,11 @@ display: none;
         padding-inline-start: 0%;
         margin-inline-start: 1em;
         margin-inline-end: 1em;       
+    }
+
+    div.title{
+        color: beige;
+
     }
 
     div.portfolio{
@@ -360,6 +384,7 @@ display: none;
         padding-inline-end: 1em;
         font-size: larger;
         padding-bottom: 20px;
+        color: beige;
     }
 
     div.portfolio,div.marketing,div.search,div.travel,div.map,div.photo,div.calt {
@@ -377,20 +402,26 @@ display: none;
     clear: both;
     padding-top: 40px;
     padding-bottom: 40px;
+    color: beige;
   }
+
+  div.contact a{
+    color: beige;
+
+}
 
  a.footer1{
     float: left;
     text-decoration: none;
     margin-inline-start: 1em;
-    color: black;
+    color: beige;
     margin-bottom: 30px;
   }
 a.footer2{
     float: right;
     text-decoration: none;
     margin-inline-end: 1em;
-    color: black;
+    color: beige;
     margin-bottom: 30px;
   }
 

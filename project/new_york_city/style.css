@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    
+    font-family : lora;
+    width: 80%;
+    height: 800px;
+    background-size: cover;
+    background-color: rgb(204, 202, 202);
+    padding: 20px;
+       /* 2. change the body text to Lora 400.
+        don't forget to add the font to your HTML! */
+}
+
+a {
+    color: #AB440D;
+}
+
+/* @font-face {
+    font-family: 'Lora' ;
+    font-family: 'Comfortaa', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src : url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Lora:ital@0;1&display=swap');
+} */
+    
+
+main {
+    max-width: 1024px;
+    margin: 2rem auto;
+    overflow: hidden;
+    box-shadow : 4px 0px 4px 2px rgba(0,23,85,.3);
+    border-radius: 2rem;
+    /* 3. give the main element 2rem rounded corners */
+    /* 4. give the main element a box shadow with
+  
+        - 0 pixels horizontal offset
+        - 4 pixels vertical offset
+        - 4 pixels blur radius
+        - 2 pixels spread radius
+        - use the color rgba(0,23,85,.3) */
+}
+
+h1 {
+    margin: 0;
+    padding: 1rem 0 .5rem;
+    text-align:center;
+    line-height: 1.1;
+    font-size: 3.5rem;
+    color: white;
+    text-transform: uppercase;
+    font-family : comfortaa;
+    background-image: linear-gradient(#41589b,#11286b);
+    
+    /* 5. change the h1 text to Comfortaa 700, make the 
+        font size 3.5rem, and make the text white */ 
+    /* 6. transform the text so every letter is capitalized */
+    /* 7. apply a linear gradient to the background
+  
+        - #41589b at the top
+        - #11286b at the bottom */
+}
+
+#quote {
+    background: url(florian-wehde-nyc-skyline.jpg) center / cover no-repeat;
+    background-size: cover;
+    background-blend-mode: luminosity;
+    background-color: #EE6920 ;
+    padding-top: 30%;
+    padding-bottom: 30%;
+    padding-left: 0%;
+    padding-right: 0%;
+ 
+    /* 8. set the padding of #quote to 30% at the 
+        top and bottom, zero on the left and right */
+    /* 9. set the background image to florian-wehde-nyc-skyline.jpg
+  
+        - set the background-position to center
+        - set the background-size to cover
+        - set the background color to #EE6920 */
+    /* 10. set the background blend mode to luminosity */
+}
+
+blockquote {
+    padding: 1rem;
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgba(0, 23, 85, .8);
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+footer {
+    text-align: center;
+}

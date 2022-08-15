@@ -1,0 +1,144 @@
+@charset "utf-8";
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+header{
+   padding: 5px;
+   font-weight: bold;
+   width: 100%;
+   height: 100px;
+   background-color: powderblue;
+}
+nav{
+   min-height: 40px;
+   width: 100%;
+   background-color: rgb(234, 122, 11);
+   display: flex;					
+   flex-wrap: nowrap;
+    align-items: center; 
+   overflow: hidden;
+   flex : 1 1 auto;			
+} 
+nav>div{			
+   flex-grow: 1;
+   flex-shrink: 1;
+   text-align: center;			
+
+}
+
+article
+{
+ background-color: blueviolet;
+ display: flex;
+ height: 200px;
+ width: 80%;
+ float: left;
+}
+
+
+article> section
+{
+background-color: brown;
+width: 20%;
+align-self: center;
+border-style: dotted;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+padding: 15px;
+font-weight: bold;
+font-size: larger;
+}
+
+aside{
+   padding: 5px;
+   
+   width: 20%;
+   float: right;
+   height: 200px;
+   background-color: lightsalmon;
+}
+
+footer{
+   padding: 5px;
+   font-weight: bold;
+   clear: both;
+   width: 100%;
+   height: 40px;
+   background-color: powderblue;
+}
+
+@media only screen and (max-width: 480px)
+{   
+   
+   nav{
+   flex-direction: column;
+
+
+       }
+
+       article
+       {
+           flex-direction : column;
+           width: 100%;
+       }
+       article > section
+       {
+           background-color: rgb(129, 210, 137);
+           width: 80%;
+           margin-top: 10px;
+           margin-bottom: 10px;
+           padding: 8px;
+         font-weight:bold;
+         font-size:medium ;
+       }
+
+       aside
+       {display : none;}
+}
+
+@media only screen and  (min-width: 481px) and (max-width:599px) 
+{
+   nav{
+   flex-direction: column;
+       }
+
+       article
+       {
+           display : flex;
+           flex-wrap: wrap;
+           padding: 10px;
+       }
+       article > section
+       {
+           background-color: rgb(209, 215, 93);
+           width: 50%;
+           margin-top: 10px;
+           margin-bottom: 10px;
+       }
+   .col-d-3
+       {
+           padding: 10px;
+           width: 100%;
+           margin : 10px;
+       }
+   .col-d-1
+   {   
+       flex : 1;
+       padding: 10px;
+       margin : 10px;
+   }
+
+   .col-d-2
+   {
+       flex : 1;
+       padding: 10px;
+       margin : 10px;
+
+       
+   }
+
+
+}

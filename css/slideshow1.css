@@ -1,16 +1,17 @@
 
+/* CSS code to style the picture container and images */
 .profile {
+  /* Height of box should roughly match image heights */
   height: 575px;
   text-align: center;
 }
-
+/* Size each image to fit container height */
 .profile img {
   height:  80%;
   width : 100%;
   border-top-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
 }
-
 /* Style to fadein */
 .fadein {
   opacity: 1;
@@ -20,4 +21,5 @@
 .fadeout {
   opacity: 0.3;
   transition: all ease-out 0.25s;
+}
 }
